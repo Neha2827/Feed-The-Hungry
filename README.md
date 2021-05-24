@@ -1,2 +1,2 @@
 # Feed-The-Hungry
-A responsive website for food wastage management
+A responsive website for food waste management
