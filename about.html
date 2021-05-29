@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/8f5ac40586.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           
+            <a href="index.html"><img src="images/logo3.png" width="100" height="70"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="feedback.html">FEEDBACK</a></li>
+                   
+                    <li><a href="Account.html">ACCOUNT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!----content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Feed the Hungry</h1>
+                <p>The core objectives are to strengthen the under privileged and economically backward rural population by actively implementing various Rural Development programs and creating awareness by setting up Knowledge centers and mobilizing community involvement though pro-active volunteers. This consistent and persistent implementation will bring about unprecedented improvement in the lives of rural citizens of India.
+                  we aimed towards providing daily nutritious & hygienic Nutritious meals to poor underprivileged people across India.
+                  In a country where the rich-poor divide is stark and while millions splurge on good food, we find it unacceptable that even bigger millions of children have to go to bed hungry without any means for food or nutrition.
+                  We are passionate in our dedication to the cause of feeding under-privileged people across India. 
+                  we are also trying to associate with Registered NGOs. So,be a part of us, help us to create a hunger free future.
+                </p>
+           <a href="index.html" class="hero-btn pec-btn">Explore Now</a>
+            </div>
+            <div class="about-col"></div>
+            <img src="images/about.jpg">
+        </div>
+
+    </section>
+       
+  
+
+
+
+<!---footer-->
+<section class="footer">
+<h4>About us</h4>
+<p>We have taken an intiative to reduce food wastage in any means(especially in social gatherings,weddings,hostels,hotels,etc).so that we can provide the food to a needy person.<br>You can donate or support the movement. You can as well volunteer.</p>
+<div class="icons">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin-in"></i>
+</div>
+<p>copyright©2021</p>
+</section>
+
+<!----JS for toggle menu-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
