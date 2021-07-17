@@ -58,6 +58,7 @@ nav img{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+
 }
 .text-box h1{
     font-size: 62px;
@@ -137,6 +138,7 @@ p{
     font-weight: 300;
     line-height: 22px;
     padding: 10px;
+
 }
 .row{
     margin-top: 5%;
@@ -817,5 +819,8 @@ h3{
   
     .btn {
       padding: 0.45rem 1.2rem;
+    }
+    .head{
+        font-family: 'Limelight', cursive;
     }
   }
